@@ -1,0 +1,8 @@
+version: 3.8
+services:
+    oracle:
+        image: store/oracle/database-enterprise:12.2.0.1
+        ports: 
+            - 1521:1521
+        volumes: 
+            - /home/kakaroto/.corretor-digital/databaseteste:/ORCL
